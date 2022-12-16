@@ -1,4 +1,6 @@
 
+
+
 powershell-scripting 
 
 
@@ -10,4 +12,5 @@ Get-ItemProperty -Path Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\C
 
 
 (New-Object -ComObject WScript.Shell).RegRead("HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DevicePath")
+
 
