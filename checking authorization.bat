@@ -53,3 +53,4 @@ pause
 //do set MAC=%%a echo MAC address of this computer is %MAC% for /f "delims=" %%c in ('findstr /I %MAC% "\\10.51.10.10\DDC-Configuration*"') 
 //do set "var=%%~nc" set "var=%var:~0,-1%" echo "%var%" echo hey I am %var% echo Re-imageing is started at DDC with MAC address: %MAC% at time: %time% > %var%.txt 
 
+
