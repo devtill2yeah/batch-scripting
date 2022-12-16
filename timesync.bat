@@ -1,5 +1,6 @@
 
 
+
 @echo off
 w32tm /query /peers
 sc config w32time start= auto
